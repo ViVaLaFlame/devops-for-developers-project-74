@@ -1,4 +1,9 @@
-node_modules/
-dist/
+node_modules
+.git
 .env
-*.sqlite
+.env.example
+docker-compose*.yml
+Makefile
+README.md
+**/*.sqlite
+**/*.sqlite-journal
