@@ -13,6 +13,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Prepare environment
+        run: cp .env.example .env
+
       - name: Run tests
         run: make ci
 
